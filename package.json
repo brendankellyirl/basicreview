@@ -1,0 +1,32 @@
+{
+  "name": "muber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "express": "^4.14.0",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.10",
+    "mocha": "^3.2.0",
+    "moment": "^2.22.2",
+    "mongoose": "^4.7.1",
+    "serverless-http": "^1.6.0",
+    "supertest": "^2.0.1",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "serverless-domain-manager": "^2.6.5",
+    "serverless-offline": "^3.27.0",
+    "serverless-plugin-aws-alerts": "^1.2.4"
+  }
+}
