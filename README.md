@@ -1,7 +1,15 @@
 # Sample NodeJS API
 
-This is a sample Node API for review, leveraging some best practices and principles.
+This is a sample `Node` API for review, running on `Express` and connecting to a `MongoDB` via the `Mongoose` ORM. 
 
-## Highlights
+## Setup
 
-Couple of things to note from the code provided:
+You need to have [Node.js](https://nodejs.org) and [MongoDB](https://www.mongodb.com) installed and running locally.
+
+### Run server
+
+```sh
+npm install 
+
+npm run start
+```
